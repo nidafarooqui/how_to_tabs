@@ -1,0 +1,6 @@
+# Mac OS X
+.DS_Store
+
+
+# Ignoring the Webstorm workspace file
+.idea/workspace.xml
