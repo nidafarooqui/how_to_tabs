@@ -28,5 +28,39 @@ To Try the code on Your Computer:
 5. Copy the source repository to your computer: `git clone https://github.com/nidafarooqui/how_to_tabs.git`
 6. Change to the project directory: `cd how_to_tabs`
 
-To run the build, type `node build.js`.
+To run the build:
+
+1. Install jake: `npm install jake -g`
+2. Run jake: `jake`
+
+
+What We Learned:
+----------------
+
+A build tool needs:
+
+1. Self Documentation
+2. Command-Line Processing
+3. Dependency Resolution
+4. Code, Not Configuration
+5. Straightforward and Simple
+
+Gulp doesn't have command-line processing and Grunt
+tends to focus more on configuration than code.
+
+We will use [Jake] (jakejs.com).
+
+There are two dependency management strategies:
+
+1. Automatically install dependencies from somewhere else.
+   (Prevents repository bloat)
+
+2. Include dependencies in the source code repository
+    (Ensures correct dependency version is available)
+
+
+
+
+
+
 

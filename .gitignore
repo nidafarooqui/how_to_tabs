@@ -4,3 +4,6 @@
 
 # Ignoring the Webstorm workspace file
 .idea/workspace.xml
+
+#npm
+node_modules/**/.bin/
